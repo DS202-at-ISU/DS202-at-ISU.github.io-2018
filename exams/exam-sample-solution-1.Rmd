@@ -27,7 +27,7 @@ Each line of the file describes one play in a game.
 ```{r}
 # write your code here
 library(tidyverse)
-pbp <- read.csv("sample-combined-pbp-stats.csv")
+pbp <- read.csv("https://raw.githubusercontent.com/DS202-at-ISU/DS202-at-ISU.github.io/master/exams/sample-combined-pbp-stats.csv")
 dim(pbp)
 length(unique(pbp$game_id))
 pbp %>% group_by(game_id) %>% tally() %>% summary()

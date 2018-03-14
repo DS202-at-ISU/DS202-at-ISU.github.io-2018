@@ -17,7 +17,7 @@ Here, we are using play-by-play data on all NBA games on two days in Oct 2017.
 
 ## Question #1: First Overview
 
-Read the data from [sample-combined-pbp-stats.csv]() without downloading the file locally. 
+Read the data from [sample-combined-pbp-stats.csv](https://raw.githubusercontent.com/DS202-at-ISU/DS202-at-ISU.github.io/master/exams/sample-combined-pbp-stats.csv) without downloading the file locally. 
 Each line of the file describes one play in a game. 
 
 - How many rows and columns does the data have? What are the variables called?
